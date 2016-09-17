@@ -1,5 +1,1 @@
-destination: ./_site
-auto:        true
-server_port: 4000
-pygments:    true
-permalink:   /:categories/:title/
+baseurl: /jekyll_blog
