@@ -1,0 +1,30 @@
+---
+layout: default
+title: 你好，世界_theFirstTimeToUseIt_and_test for the html
+---
+<h1>{{ page.title }}</h1>
+<!--增加一个JS的事件-->
+<p onclick='alert("欢迎进入JavaScript学习之旅!");'>我的第一篇文章
+没错，第一篇文章的内容就叫做：我的第一篇文章！<br/>
+暂时就以《你好,世界》那个为模板吧!<br/>
+它自己会以 default 的style 显示出来！
+</p>
+<p>{{ page.date | date_to_string }}</p>
+<a href="{{ site.baseurl }}/index.html">Go back</a>
+
+<p>2016年9月16日开始以《网页设计与开发》一书为主导系统学习关于网页的这些知识</p>
+<!--下面是关于图片的测试-->
+![测试截图]({{ site.url }}/assets/testPicture.png)
+<p>关于下载[下载 PDF]({{ site.url }}/assets/scienceBeautiful.pdf)</p>
+<img src="{{ site.url }}/assets/testPicture.png">
+<img src={{ site.url }}/assets/testPicture.png>
+
+<!--下面是看align这个属性的设置-->
+<h1 align="center">第三章 文字与段落</h1>
+<h2>3.1 文字内容</h2>
+<h3>3.1.1 添加文字</h3>
+<h4 align=left >1)基本语法</h4>
+<h5 align=left>2)语法说明</h5>
+<h6 align=right>返&nbsp&nbsp&nbsp回</h6>
+<!--关于链接-->
+<a href="/jekyll_blog" title="Home">主页</a>
