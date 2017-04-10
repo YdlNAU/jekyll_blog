@@ -14,7 +14,7 @@ body{background:#fffff url(images/body-bg.gif) top left repeat-x;font-family:Ari
 .top-links li a{text-decoration:none;color:#272727;font-weight:bold;}
 .top-links li a:hover{color:#517208}
 .top-links li a:active{color:#517208}
-.info{font-size:20px;width:400px;padding-top:140px;padding-right:69px;color:#004802;font-weight:bold;}
+.info{font-size:20px;width:400px;padding-top:160px;padding-right:69px;color:#03A9F4;font-weight:bold;}
 .content-box{padding:30px 0px;}
 .left-col{width:490px;}
 .main-content{color:#9B9875;line-height:18px;}
@@ -27,12 +27,12 @@ color:#0a356d;font-weight:bold;display:block;padding-bottom:15px;font-size:13px;
 a{color:#9B9875;text-decoration:none;}
 a:hover a:active{text-decoration:none;}
 .gallery-section{
-width:255px;background:url(images/dotted-bg.gif) top right repeat-y;padding-right:30px;margin-top:30px;}
+width:255px;background:url(images/dotted-bg.gif) top right repeat-y;padding-right:30px;margin-top:10px;}
 .gallery-section h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
 .gallery-section span.second_heading{
 color:#0a356d;font-weight:bold;display:block;padding-bottom:20px;font-size:13px;}
 .gallery-section img{padding-right:10px;padding-bottom:10px;}
-.drawing-section{width:175px;margin-top:30px;}
+.drawing-section{width:175px;margin-top:10px;}
 .drawing-section h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
 .drawing-section span.second_heading{
 color:#0a356d;font-weight:bold;display:block;padding-bottom:20px;font-size:13px;}
@@ -42,7 +42,7 @@ a{color:#9B9875;text-decoration:none;}
 .news-title a{text-decoration:none;color:#0a356d;}
 
 .right-col{width:331px;}
-.events-section{padding:10px 10px 0px 10px;border:5px solid #fcd598;background:#f9eddd url(images/events-section-bg.gif) bottom right no-repeat;}
+.events-section{padding:10px 10px 0px 10px;border:5px solid rgba(33, 150, 243, 0.74);background:#f9eddd url(images/events-section-bg.gif) bottom right no-repeat;}
 .events-section h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
 .events-section div{
 color:#0a356d;font-weight:bold;padding-bottom:10px;}

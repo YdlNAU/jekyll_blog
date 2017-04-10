@@ -22,6 +22,29 @@
         Author: BootstrapMade
         Author URL: https://bootstrapmade.com
     ======================================================= -->
+    <script type="text/javascript">
+ 	function start(){
+	var now=new Date();   //得到当前时间对象
+	var hr = now.getHours(); //得到当前时间的小时数，0～23
+	if (hr<10) {
+		
+		var greet = " Good morning ";
+	}else if(hr<18){
+		
+		var greet = " Good afternoon ";
+	}else{
+		
+		var greet = " Good evening ";
+	}
+
+	var min = now.getMinutes(); //得到当前时间的分钟数，0~59
+	var sec = now.getSeconds(); //当前时间的秒数，0~59
+  	var clocktext =  greet + " Now is:    " + now.toLocaleString(); //定一个显示时间字符串
+	var timeTD=document.getElementById("timeArea");//获得时间字符串准备放置的单元格
+	timeTD.innerText=clocktext; //将时间字符串作为单元格的显示文本内容
+  }
+  window.setInterval("start()", 1000); //设定每1000毫秒执行一次start()方法，重新刷新时间
+</script>
   </head>
 
   <body>
@@ -30,17 +53,14 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">I'm dlyu</a>
+       
+          <a class="navbar-brand" href="index.html">I'm yudalang</a>
+          <strong color="#FF9933" id="timeArea" class="navbar-brand">I'm yudalang</strong>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
 			<li><h4> 
-				<font color = "#CCCCCC" size =3>
+				<font color = "#CCCCCC" size =4.5>
 				<u><b>please enter my home page :</b></u> 
 				</font>
 			</h4></li>
@@ -103,7 +123,7 @@
                         Licensing information: https://bootstrapmade.com/license/
                         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Siimple
                     -->
-                    <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    <a href="https://github.com/YdlNAU">My github page</a>
                 </div>
             </div>
 		</div>		
