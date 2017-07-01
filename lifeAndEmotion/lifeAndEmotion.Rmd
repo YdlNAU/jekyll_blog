@@ -1,0 +1,62 @@
+---
+title: "life and emotion"
+date: "`r Sys.Date()`"
+author: "YuDalang"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    number_sections: yes
+---
+
+
+```{r knitr_init, echo=FALSE, cache=FALSE,warning=FALSE,message=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="100")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=100)
+```
+
+
+
+
+# 所说的话
+
+## 2017年六月
+
+> 在本科阶段最后一次支部大会上，毕业生党员最后感言。
+
+
+[原话请见这里](LastTalkInUni.html)
+
+
+# 所做的事
+
+```{r}
+1 + 1
+```
+
+## 2017年六月
+
+> 毕业旅行
+
+> 毕业典礼
+
+# 所见的人
+
+## 很好的老师
+
+吴老师与关老师
+
+## 很好的同学
+
+![本科班级：农强131](nongqiang131.jpg)
+

@@ -1,0 +1,69 @@
+---
+title: "My reflaction"
+date: "`r Sys.Date()`"
+author: "YuDalang"
+output:
+  rmdformats::html_docco:
+    highlight: kate
+    number_sections: yes
+    toc: yes
+---
+
+
+```{r knitr_init, echo=FALSE, cache=FALSE,message=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+               cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+这里记录黄皮书上的感受！
+
+## 5月5日
+
+* **制作时间表**：包括短期和长期的。
+* **举一反三**：多角度思考，学习的目的是为了提炼一种规律，感悟一种技巧，最后沉淀一种能力，将来当类似的情景出现时，沉淀的能力就会被激活。
+* **学会分享**：先说出自己的思路，再激发每个成员都说出自己的想法，遇到困难大家一起帮助。同学有新发现好方法，他会经常兴奋，组织大家更深层次探讨研究，同一个问题带领大家从不同角度思考。
+
+> 成绩优秀的同学往往有一个鲜明的特点：就是喜欢和老师、同学讨论各种问题。
+
+## 5月23日
+
+Are the genes responsible for the trait you are targeting?
+
+Attention: There are lots of other things affect the trait, such as linage genome, environment and other traits.
+
+## 《20世纪生命科学史》加兰.E.艾伦
+
+P1：科学史国际性文化，科学史也是国际性文化
+P4：尽管实验的方法非常强调操作，但事实上与其说事特定的操作演示，不如说实验是一种思考的方法。
+
+## 2015年4月19日《幸福课》
+
+Key: ordinary people from those successful ones
+
+* they throught they could do well, they will driven. they were motivated.
+* Always asking questions , keepp a state of curiosity.
+
+## 学习思想（可长期更新）
+
+对于自然科学的学习，你只要能把你学到的东西能用你之前已掌握的几门语言（包括自然语言（中文与英文）、计算机语言或数学（数学是一种刻画、理解与解释世界的语言——《数学分析》））不是很模糊地想当然而是确确实实地用语言或表达或书写或用图像展示出来的时候就是你真正理解掌握甚至是精通的时候。
+
+打比方（或比喻）或者类比只能帮助认知一样事物，但是不能真正地让你理解它。你若要真正地理解，你必须先背诵最最基本的概念，有一定的感性认识，然后你可以用这种基本概念去思考。会运用一些*专业名词*，这才是理解。
+
+## Placebo-controlled, randomised double-blind study
+
+这种实验应该是最有说服力的。
+
+##
+
+
