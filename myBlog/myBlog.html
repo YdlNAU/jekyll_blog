@@ -23,15 +23,6 @@ layout: null
     <![endif]-->
 </head>
 <body>
-    
-<hr color="blue">
-<p>最新文章</p>
-<a href="{{ site.baseurl }}/index.html">返回首页</a>
-<ul>
-　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-</ul>
 
 <div class="container">
     <div class="subcontainer">
